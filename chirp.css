@@ -1,0 +1,190 @@
+*{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+:root{
+    --blue : #1da1f2 ;
+    --gray : #fbf8f3 ;
+    --skyblue :    #d7f5f5    ;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+p{
+    line-height: 24px;
+    font-weight: 400;
+    opacity: 0.7;
+}
+#uni-padding{
+    padding: 1% 10%;
+}
+button{
+    background-color:var(--blue);
+    border: none;
+    color: #fff;
+    height: 50px;
+    width: 220px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 16px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ddd;
+}
+header .logo{
+    color: var(--blue);
+    font-style: italic;
+    font-weight: 700;
+}
+header .menu ul li{
+    display: inline-block;
+    padding-left: 30px;
+}
+
+header .menu ul li a{
+   color: #000;
+}
+
+
+.home{
+    display: flex;
+    background-color: #ddd;
+    justify-content: space-between;
+    height: 700px;
+}
+.home1{
+    width: 50%;
+}
+.home1 h1{
+   font-size: 53px;
+   margin: 10px 0px 0 0;
+}
+.home1 .learn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.home1 p{
+    line-height: 30px;
+    font-weight: 400;
+    opacity: 0.7;
+}
+.home1 p span{
+    color: var(--blue);
+    font-weight: 500;
+}
+
+.home1 a{
+    padding-left: 15px;
+
+}
+.home1 .user{
+    background-image:   url("Assets/userAvatar01.svg"),
+                        url("Assets/userAvatar02.svg"),
+                        url("Assets/userAvatar03.svg"),
+                        url("Assets/userAvatar04.svg"),
+                        url("Assets/userAvatar05.svg"),
+                        url("Assets/userAvatar06.svg"),
+                        url("Assets/userAvatar07.svg"),
+                        url("Assets/userAvatar08.svg"),
+                        url("Assets/userAvatar09.svg") ;
+    background-size:  8%;
+    background-repeat: no-repeat ;
+    padding: 25px;
+    margin: 25px 0;
+    background-position: 160px,140px,120px,100px,80px,60px,40px,20px,0;
+}
+
+
+.home2{
+    width: 42%;
+    background-image: url("Assets/HeroImageDesktopView.png");
+    background-repeat: no-repeat ;
+    background-size: 100%;
+    background-position: right top;  
+}
+.features h1{
+    font-size: 32px;
+}
+
+.features .row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.features .row .part{
+    border: 1px solid #ddd;
+    width: 500px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    padding: 15px;
+}
+.features .row .part p{
+    line-height: 24px;
+    font-weight: 400;
+    opacity: 0.7;
+}
+.post{
+    background-color: var(--skyblue);
+    
+}
+.post .posts{
+    display: inline-grid;
+    width: 25%;
+    background-color: #fff;
+    padding: 10px 25px;
+    border-radius: 5px;
+    margin: 0 35px 0 0;
+}
+
+.post .posts .post-head img{
+    float: left;
+    padding: 14px 0;
+}
+
+.post .posts .tag{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.post .posts .post-head .tag ul{
+   padding: 0 10px;
+}
+.post .posts .post-body {
+    line-height: 24px;
+    opacity: 0.7;
+    padding: 0 0 20px 0px;
+}
+.post .posts .post-foot img{
+    height: 22px;
+}
+.post .posts .post-foot .time{
+    float: right;
+}
+
+
+
+
+
+
+
+
